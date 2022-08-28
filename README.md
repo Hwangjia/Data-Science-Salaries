@@ -13,7 +13,7 @@ Main dataset for Data Science Salaries was obtained from: https://salaries.ai-jo
 # Scenario
 Assumption is that the data obtained provides (possibly) an accurate representation of the salaries of data scientist.
 
-The objective of this analysis is to identify whether the salaries of data scientist (or data analytics related jobs) are above the average annual salary relative to the Country in which the employee is situated in.
+The objective of this analysis is to identify whether the salaries of data scientist (or data analytics related jobs) are above the average annual salary relative to the Country in which the employee is situated in and in the relevant years.
 
 
 # Steps related to datasets:
@@ -21,7 +21,7 @@ The objective of this analysis is to identify whether the salaries of data scien
   2. Since the company_location variable in the main dataset is listed under a ISO Country code. The ISO Country Codes - Global dataset is used to assist in merging the
      Average Annual Wages by Country from OECD with the initial dataset as a single dataframe.
   3. Finally, the salaries of respondents in main dataset will then be compared with the respective country's average annual salary.
-  4. All findings are interpreted through the furhter use of graphs made using the plotly package as shown below.
+  4. All findings are interpreted through the use of graphs made using the plotly package as shown below.
 
 # Graph examples
 ![newplot (1)](https://user-images.githubusercontent.com/62349308/187069241-12a2efc6-2709-416e-8aac-6b82709b1c5e.png)
